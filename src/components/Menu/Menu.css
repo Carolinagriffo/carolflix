@@ -24,8 +24,8 @@
     padding-left: 5%;
     padding-right: 5%;
   
-    background: var(--black);
-    border-bottom: 2px solid var(--primary);
+    background: #181b39;
+    border-bottom: 2px solid #b53a89;
   }
 
   body {
@@ -35,7 +35,7 @@
 
   @media (max-width: 800px) {
     .Menu {
-      height: 40px;
+      height: 50px;
       justify-content: center;
     }
     body {
@@ -71,9 +71,14 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: var(--primary);
+      background: #8e3176;
       border-radius: 0;
       border: 0;
       text-align: center;
+    }
+    a.ButtonLink:hover, 
+    a.ButtonLink:focus {
+      opacity: .6;
+      color: #ec90cb;
     }
   }

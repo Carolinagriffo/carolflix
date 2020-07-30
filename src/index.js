@@ -6,10 +6,14 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
+import { ResponsiveIframe } from './components/BannerMain/components/VideoIframeResponsive/styles';
 
-// Desafio master blaster na descrição
-// Colocar um jogo nessa página: https://www.youtube.com/watch?v=jOAU81jdi-c :)
-const Pagina404 = () => (<div>Página 404</div>)
+const Pagina404 = () => (
+  <div>
+    <h1 className="page-not-found">Página não encontrada!</h1>
+    <ResponsiveIframe src="https://mariosouto.com/flappy-bird-devsoutinho/"></ResponsiveIframe>
+  </div>
+)
 
 ReactDOM.render(
   <BrowserRouter>

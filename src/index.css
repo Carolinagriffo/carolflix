@@ -29,3 +29,11 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+h1.page-not-found {
+  text-align: center;
+  color: #b53a89;
+}
+body {
+  background-color: #141414;
+}
